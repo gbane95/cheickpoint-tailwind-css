@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
+    <!--lien outputcss-->
+    <link rel="stylesheet" href="./css/output.css">
+    <!--notre propre style-->
+    <link rel="stylesheet" href="./css/blog.css">
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class=" bg-white p-4 md:flex flex-row justify-between items-center">
+
+        <div class="flex flex-row items-center justify-between">
+            <a href="blog.html" class="text-3xl font-bold">Newbreak</a>
+            <label for="menu-toggle" class="cursor-pointer bg-black text-white p-2 text-1xl rounded-md md:hidden">Menu
+                <i class="fa-bars fa"></i></label>
+        </div>
+
+        <input type="checkbox" class="hidden peer" id="menu-toggle">
+        <div
+            class="hidden peer-checked:transition-all duration-200 peer-checked:block md:flex flex-row justify-between items-center gap-4">
+            <ul class="pt-4 me-auto gap-4 md:flex flex-row items-center justify-between md:py-4">
+
+                <li class="mb-3 md:mb-0"><a href="#blog.html"
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">ACCUEIL</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="#Articles"
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">ARTICLES</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="#À PROPOS"
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">À PROPOS</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="index.html"
+                    class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">PORTFOLIO</a>
+                </li>
+
+            </ul>
+
+            <a href="#contact"
+            class="font-bold bg-black text-white p-2 rounded-md hover:border-2 hover:bg-light duration-200 hover:border-black hover:text-black">Soyez notre invité</a>
+        </div>
+    </nav>
+
+    <!--section hero-->
+    <section class="hero">
+        <div class="p-4">
+            <h1 class="text-white font-bold text-3xl md:text-6xl">Lisez notre blog</h1>
+        </div>
+    </section>
+
+
+    <!--section articles-->
+    <section id="Articles" class="mb-5 margin text-center">
+        <h1 class="text-3xl font-semibold mb-5">Articles Vedettes</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/1.jpg">
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min
+                        read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">L'arme secrète de l'Église.</div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/2.jpg">
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min
+                        read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">Jésus donne la vie aux morts</div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/4.jpg">
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min
+                        read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">Comment écouter la voix de Jésus</div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/5.jpg">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">14
+                        février 2024
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">Dieu des miracles</div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/6.jpg">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">6
+                        février 2024
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">La vision sans exécution est une hallucination
+                    </div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-68 object-cover" src="./image/7.jpg">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">29
+                        janvier 2024
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-5">Jésus veut vous rencontrer</div>
+                    <a href="#" class="text-primary hover:text-secondary">CONSULTER CES RESSOURCES</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section a-propos-->
+    <section id="À PROPOS" class="mb-5">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="grid bg-black text-white p-5 md:items-center justify-center text-center">
+                <h1 class="font-bold text-3xl">À propos de notre leadership</br> et de nos convictions</h1>
+                <p class="text-2xl pt-6">L'objectif de l'Église Newbreak est de</br> « connecter les gens à Dieu à
+                    travers des relations authentiques pour servir les communautés ».</p>
+
+                <div class="pt-6">
+                    <a href="#info"
+                        class=" bg-primary p-2 rounded-md text-white hover:bg-light duration-200 hover:border-2 hover:border-bg-primary hover:text-primary">Notre
+                        direction</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="./image/9.jpg" alt="Jesus" class="w-full">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="mb-5 py-10 bg-gray-200">
+        <div class="items-center justify-center text-center">
+            <h2 class=" text-center text-2xl font-semibold mb-6">Catégories</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
+                <div>
+                    <a href="#" class="bg-blue-500 text-white px-3 py-1 rounded-full">Spiritualité</a>
+                </div>
+                <div>
+                    <a href="#" class="bg-green-500 text-white px-3 py-1 rounded-full">Éthique</a>
+                </div>
+                <div>
+                    <a href="#" class="bg-red-500 text-white px-3 py-1 rounded-full">Textes Sacrés</a>
+                </div>
+                <div>
+                    <a href="#" class="bg-yellow-500 text-white px-3 py-1 rounded-full">Communauté</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section Articles ressent -->
+    <section class="py-10">
+        <div class="mx-auto text-center">
+            <h2 class="text-2xl font-semibold mb-6">Articles Récents</h2>
+            <ul class="space-y-4">
+                <li class="text-gray-800 font-semibold">Prier des prières à la mesure de Dieu - <span
+                        class="text-gray-500">11 Octobre 2024</span></li>
+                <li class="text-gray-800 font-semibold">Quand vous vous déconnectez de Dieu - <span
+                        class="text-gray-500">12 Octobre 2024</span></li>
+                <li class="text-gray-800 font-semibold">Dieu des miracles - <span class="text-gray-500">13 Octobre
+                        2024</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Newsletter Formulaire -->
+    <section class="py-10 bg-gray-200 p-4">
+        <div class="items-center justify-center text-center">
+            <h2 class="text-2xl font-semibold mb-6">Abonnez-vous à notre Newsletter</h2>
+            <form class="flex flex-col md:flex-row justify-center">
+                <input type="email" placeholder="Votre email" class="p-2 rounded-l-lg border border-gray-400" required>
+                <button type="submit" class="bg-blue-600 text-white p-2 rounded-r-lg">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <!--------section footer---------------->
+    <section class="text-center">
+        <footer class="bg-gray-800 text-white py-6 text-center">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="mt-4">
+                    <a href="#" class="hover:text-gray-400 mx-2">Politique de confidentialité</a>
+                    <a href="#" class="hover:text-gray-400 mx-2">Conditions d'utilisation</a>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 Newbreak. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+
+</html>

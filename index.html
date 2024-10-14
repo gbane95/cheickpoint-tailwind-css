@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
+    <!--lien outputcss-->
+    <link rel="stylesheet" href="./css/output.css">
+    <!--notre propre style-->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class=" bg-white p-4 md:flex flex-row justify-between items-center">
+
+        <div class="flex flex-row items-center justify-between">
+            <a href="index.html" class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-black via-pink-500 to-dark shadow-lg">TIDJANE GBANE</a>
+            <label for="menu-toggle" class="cursor-pointer bg-black text-white p-2 text-1xl rounded-md md:hidden">Menu
+                <i class="fa-bars fa"></i></label>
+        </div>
+
+        <input type="checkbox" class="hidden peer" id="menu-toggle">
+        <div class="hidden peer-checked:transition-all duration-200 peer-checked:block md:flex flex-row justify-between items-center gap-4">
+            <ul class="pt-4 mx-auto me-auto gap-4 md:flex flex-row items-center justify-between md:py-4">
+
+                <li class="mb-3 md:mb-0"><a href="index.html"
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">ACCUEIL</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="#À PROPOS"
+                    class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">À PROPOS</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="#PROJETS"
+                        class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">PROJETS</a>
+                </li>
+
+                <li class="mb-3 md:mb-0"><a href="blog.html"
+                    class="font-bold text-secondary hover:transition-all duration-300 hover:text-black">BLOG</a>
+                </li>
+
+            </ul>
+
+            <a href="#CONTACT"
+                    class="font-bold bg-black text-white p-2 rounded-md hover:border-2 hover:bg-light duration-200 hover:border-black hover:text-black">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Section héros -->
+    <section class="mb-5 relative bg-cover bg-center h-screen" style="background-image: url('/image/im_baniere.jpg')">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-70">
+            <h1 class="text-4xl text-white font-bold">Bonjour, je suis Développeur Logiciel</h1>
+        </div>
+    </section>
+
+    <!--section à propos-->
+    <section id="À PROPOS" class="bg-gray-100 mb-5">
+        <div class="me-6 mx-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
+                <div class="text mb-5">
+                    <h1 class="font-semibold text-3xl mb-5 md:text-5xl">
+                        Bienvenue dans mon portfolio de <br> développement Logiciel !
+                    </h1>
+                    <p class="text-gray-400 text-2xl mb-5">
+                        Je suis Gbané Tidjane, un Développeur Logiciel passionné basé en Côte d'Ivoire. Vous aurez ici un aperçu de mon parcours dans le monde du développement Logiciel, où la créativité rencontre la fonctionnalité.
+                    </p>
+                </div>
+    
+                <div class="image">
+                    <a href="#">
+                        <img src="./image/dev.jpg" class="w-full rounded-2xl shadow hover:transition-opacity" 
+                             alt="Développeur logiciel travaillant sur un projet">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------section clients------>
+
+    <section class="mx-20 me-20 pt-10">
+        <h2 class="font-semibold text-2xl text-center mb-9">Mes clients géniaux</h2>
+        <div class="grid grid-cols-2 md:grid-cols-6 flex-row items-center justify-center gap-4">
+            <div class="mb-3">
+                <img src="./image/coinbase.svg" alt="" class="">
+            </div>
+            <div class="mb-3">
+                <img src="./image/spotify.svg" alt="" class="">
+            </div>
+            <div class="mb-3">
+                <img src="./image/pinterest.svg" alt="" class="">
+            </div>
+            <div class="mb-3">
+                <img src="./image/google.svg" alt="" class="">
+            </div>
+            <div class="mb-3">
+                <img src="./image/amazon.svg" alt="" class="">
+            </div>
+            <div class="mb-3">
+                <img src="./image/netflix.svg" alt="" class="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="mx-20 me-20 pt-9">
+        <h2 class="text-3xl font-semibold text-center mb-5">MES COMPETENCES</h2>
+        <h2 class="text-5xl font-bold text-center mb-5">Ce que je fais</h2>
+        <P class="text-gray-400 text-2xl text-center mb-5">Je ne suis pas seulement un développeur, je suis un tisseur de rêves numériques. Créer des expériences en ligne immersives n'est pas seulement un travail, mais ma vocation. Découvrez ci-dessous comment je peux vous aider.</P>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <h3 class="font-semibold text-2xl mb-2">Développement Web Front-End :</h3>
+                <p class="text-gray-400">Créer des expériences Web esthétiques et fonctionnelles est mon point fort. En utilisant les dernières technologies et les meilleures pratiques, je conçois et crée des sites Web qui captivent et engagent les utilisateurs.</p>
+            </div>
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <h3 class="font-semibold text-2xl mb-2">Développement d'applications mobiles</h3>
+                <p class="text-gray-400">Je me spécialise dans la création d'applications mobiles réactives et intuitives qui fonctionnent parfaitement sur les appareils iOS et Android. Du concept au déploiement, je gère chaque étape du processus de développement.</p>
+            </div>
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <h3 class="font-semibold text-2xl mb-2">Pile technologique</h3>
+                <p class="text-gray-400">Je connais bien les technologies front-end les plus populaires du secteur, notamment HTML5, CSS3, JavaScript et des frameworks comme React et React Native.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="PROJETS" class="mx-20 me-20 mb-5">
+        <h2 class="text-3xl font-semibold text-center pt-10">MES PROJETS</h2>
+        <p class="text-gray-400 text-2xl pt-6"> Que vous ayez une idée d'application mobile qui doit prendre vie ou un
+            site Web qui nécessite un lifting, je suis là pour transformer vos rêves numériques en réalité </p>
+        <div class="grid grid-cols-1 pt-6 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <img src="./image/resto.png" alt="Projet 1" class="rounded-t-lg">
+                <h3 class="font-semibold text-2xl mt-2 mb-2">Développement d'applications mobiles</h3>
+                <p class="text-gray-400">Application mobile conçue pour aider les utilisateurs à découvrir et explorer les restaurants et cuisines locaux..</p>
+                <div class="pt-6">
+                    <a href="https://gbane95.github.io/Checkpoint-bootstrap-resto-voyage/index.html"
+                        class="p-2 rounded-md border-2 bg-black hover:shadow-2xl text-white text-1xl font-bold">VOIR LES DETAILS</a>
+                </div>
+            </div>
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <img src="./image/voy.png" alt="Projet 2" class="rounded-t-lg">
+                <h3 class="font-semibold text-2xl mt-2 mb-2">Développement de pages de destination</h3>
+                <p class="text-gray-400">Page de destination promotionnelle pour une campagne estivale sur un site de fitness.</p>
+                <div class="pt-6">
+                    <a href="https://gbane95.github.io/Checkpoint-bootstrap-resto-voyage/voyage.html"
+                        class="p-2 rounded-md border-2 bg-black hover:shadow-2xl text-white text-1xl font-bold">VOIR LES DETAILS</a>
+                </div>
+            </div>
+            <div class="p-5 border rounded-lg shadow-md bg-white">
+                <img src="./image/bout.png" alt="Projet 3" class="rounded-t-lg">
+                <h3 class="font-semibold text-2xl mt-2 mb-2">Développement du commerce électronique</h3>
+                <p class="text-gray-400">Site Web de commerce électronique offrant un accès aux derniers et meilleurs gadgets et accessoires..</p>
+                <div class="pt-6">
+                    <a href="https://gbane95.github.io/Checkpoint-bootstrap-boutique/"
+                        class="p-2 rounded-md border-2 bg-black hover:shadow-2xl text-white text-1xl font-bold">VOIR LES DETAILS</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+     <section id="CONTACT" class="bg-gray-100 flex items-center justify-center min-h-screen">
+        <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+            <h2 class="text-2xl font-bold mb-4 text-center">Contactez-nous</h2>
+            <form action="#" method="POST">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Nom</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" />
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Adresse électronique</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500" />
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" required rows="4" class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Envoyer</button>
+            </form>
+        </div>
+
+     </section>
+    
+
+    <section class="bg-gray-100">
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-8">
+            <div class="container mx-auto text-center space-y-4">
+                <h2 class="text-2xl font-bold">Mon porfolio</h2>
+                <!-- Social Media Icons -->
+                <div class="flex justify-center gap-4 space-x-6">
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+    
+                <!-- Copyright -->
+                <p class="text-gray-400">&copy; 2024 Mon porfolio. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
